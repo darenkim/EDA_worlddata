@@ -40,7 +40,7 @@ df = pd.concat(dfs)
 ```
 -------------------------------------------
 
-#### <i class="icon-folder-open"></i> ****2017년 유아사망율을 지도화해보기**
+#### <i class="icon-folder-open"></i> **2017년 유아사망율을 지도화해보기**
 ```
 df_infant= df_2017[df_2017["INDICATOR"] =='INFANTMORTALITY']
 df_infant = df_infant.sort_values(by ='Value', ascending = False)
@@ -68,7 +68,7 @@ display(m)
 
 
 ---------------------------------
-#### <i class="icon-folder-open"></i> ****OECD국가중 인도는 영유아 사망율이 가장높다**
+#### <i class="icon-folder-open"></i> **OECD국가중 인도는 영유아 사망율이 가장높다**
 
 ![enter image description here](https://user-images.githubusercontent.com/70153665/102324674-82c52f00-3fc5-11eb-8e69-99ed8454a6b8.png)
 
